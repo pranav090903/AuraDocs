@@ -92,6 +92,22 @@ Access the UI at: `http://localhost:8501`
 
 ---
 
+## 🐳 Docker Deployment
+
+AuraDocs is Docker-ready for easy cloud deployment.
+
+### 1. Build the Image
+```bash
+docker build -t auradocs .
+```
+
+### 2. Run the Container
+```bash
+docker run -p 8000:8000 -p 8501:8501 --env-file .env auradocs
+```
+
+---
+
 ## 🛡️ License
 Distributed under the MIT License. See `LICENSE` for more information.
 
