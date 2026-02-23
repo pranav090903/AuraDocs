@@ -4,7 +4,7 @@ import os
 import base64
 
 # --- CONFIGURATION ---
-ST_API_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
+ST_API_URL = os.getenv("BACKEND_URL", "https://auradocs.onrender.com/")
 APP_NAME = "AuraDocs"
 APP_ICON = "📄"
 
