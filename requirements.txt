@@ -1,3 +1,4 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 fastapi
 uvicorn
 langchain
@@ -6,7 +7,9 @@ langchain-huggingface
 faiss-cpu
 pypdf
 python-dotenv
-sentence-transformers
+sentence-transformers==2.2.2
+torch==2.2.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 streamlit
 pydantic
 requests
